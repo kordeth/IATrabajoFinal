@@ -1,0 +1,13 @@
+[project]
+name = "agent-framework-agent-basic-responses"
+version = "0.1.0"
+description = "A local-only Foundry Local agent built with Microsoft Agent Framework."
+requires-python = ">=3.13"
+dependencies = [
+    "agent-framework-openai",
+    "agent-framework-foundry-hosting>=1.0.0b260813",
+    "debugpy",
+    "python-dotenv",
+    "openai",
+    "mcp",
+]
